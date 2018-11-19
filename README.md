@@ -1,5 +1,5 @@
-# django-rest_framework-filtering-ordering
-Ejemplo de como usar paginación, filtros y ordenamiento con Django REST Framework
+# djang-rest_framework-nested_relationships
+Ejemplo de como usar modelos relacionados con Django REST Framework
 
 # Run
 python manage.py runserver
