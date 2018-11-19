@@ -21,7 +21,7 @@ class SnippetViewSet(viewsets.ModelViewSet):
     # Definimos filtros por igualdad por los campos 'title' y 'language'
     filter_fields = ('title', 'language')
     # Definimo un SearchFilter por los campos 'title'
-    search_fields = ('title',)
+    search_fields = ('title', 'publisher__name')
     # Definimos un orden por defecto a nivel vista que sobreescribe el que define el modelo
     ordering = ('created',)
     # Habilitamos para que se pueda ordenar por los campos 'created' y 'title'
